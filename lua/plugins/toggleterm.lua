@@ -21,7 +21,7 @@ return {
         end
 
         -- keymap
-        vim.keymap.set("n", "<leader>gg", _lazygit_toggle, { noremap = true, silent = true })
+        vim.keymap.set("n", "<leader>gg", _lazygit_toggle, { noremap = true, silent = true, desc = "Toggle Lazygit" })
         function _close_term()
             require("toggleterm").toggle(0) -- 0 = last opened terminal
         end
