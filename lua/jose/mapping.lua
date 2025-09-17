@@ -23,3 +23,6 @@ vim.keymap.set("n", "<Leader>-", ":split<CR><C-w>j", { noremap = true, silent = 
 
 -- Close the current split with cw
 vim.keymap.set("n", "cw", "<C-w>c", { noremap = true, silent = true })
+
+-- Toggle Markdown preview with <leader>mdp
+vim.keymap.set("n", "<leader>md", ":Markview toggle<CR>", { noremap = true, silent = true })
