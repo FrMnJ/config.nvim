@@ -26,3 +26,6 @@ vim.keymap.set("n", "cw", "<C-w>c", { noremap = true, silent = true, desc = "Clo
 
 -- Toggle Markdown preview with <leader>mdp
 vim.keymap.set("n", "<leader>md", ":Markview toggle<CR>", { noremap = true, silent = true, desc = "Toggle Markdown Preview" })
+
+-- Toggle Copilot with <leader>gc
+vim.keymap.set("n", "<leader>cd", ":Copilot disable<CR>", { noremap = true, silent = true, desc = "Disable Copilot" })
